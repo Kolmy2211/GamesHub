@@ -1,0 +1,88 @@
+.menu{
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+}
+.menu-item{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 30px;
+    line-height: 10vh;
+    transition: 500ms;
+}
+.menu-item:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #f38ffa;
+}
+.games-conteiner{
+    height: 90vh;
+    background: linear-gradient(45deg, #f38ffa, #539eee);
+    overflow: scroll;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.games-items{
+    margin: 0 auto;
+    width: fit-content;
+}
+.games-item{
+    /* float: left; */
+    display: inline-block;
+    list-style-type: none;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 0 0 20px 6px black;
+    border-radius: 2%;
+    filter: brightness(0.4);
+    opacity: 0.5;
+    transition: 500ms;
+}
+.game{
+    list-style-type: none;
+}
+.games-item:hover{
+    transform: scale(1.05);
+    opacity: 1;
+    filter: none;
+}
+.item1{
+    background: url("../img/MCraft.PNG") center/cover no-repeat;
+}
+.item2{
+    background: url("../img/CS-GO.PNG") center/cover no-repeat;
+}
+.item3{
+    background: url("../img/ARK.jpg") center/cover no-repeat;
+}
+.item4{
+    background: url("../img/Elden.jpg") center/cover no-repeat;
+}
+.item5{
+    background: url("../img/NMS.jpg") center/cover no-repeat;
+}
+.item6{
+    background: url("../img/Subnautica.png") center/cover no-repeat;
+}
+.item7{
+    background: url("../img/Subnautica Below Zero.png") center/cover no-repeat;
+}
+.item8{
+    background: url("../img/Rust.png") center/cover no-repeat;
+}
+.item9{
+    background: url("../img/The Witcher 3.png") center/cover no-repeat;
+}
+.item10{
+    background: url("../img/Metro.png") center/cover no-repeat;
+}
+.item11{
+    background: url("../img/Gta 5.jpg") center/cover no-repeat;
+}
+.item12{
+    background: url("../img/Dark Souls 3.png") center/cover no-repeat;
+}
+
